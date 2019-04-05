@@ -14,7 +14,8 @@ navbarBtn.classList.remove('change')
         navbarBtn.classList.add('change')
     }
 })
-
+ /*slider*/
+ 
 const nextBtn = document.querySelector('.nextBtn');
 const prevBtn = document.querySelector('.prevBtn');
 const container = document.querySelector('.images');

@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     }
+    body {
+    align-items: center;
+    justify-content: center;
+    }
     
     .navbar__header {
         background: #545454;
@@ -56,7 +60,7 @@
         font-size: 1.5rem;
         text-decoration: none;
         text-transform: capitalize;
-        color: #6baa75;
+        color: #d24dff;
         transition: all 1s ease;
         cursor: pointer;
     }
@@ -66,9 +70,12 @@
         background: #545454;
     }
 
-    .header {
+    .background {
         min-height: calc(100vh - 91.8px);
         background: url('./img/pac-man.png') center/cover no-repeat;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
     
     .title {
@@ -76,22 +83,32 @@
         font-size: 50px;
         color: #00FF00;
     }
+    /*slider*/
+     
+    .space {
+        min-height: 100px;
+    }
 
     .images {
-        background: url('./img/pac-man.png') center/cover no-repeat;
+        background: yellow;
         flex: 0 0 80%;
-        min-height: 90vh;
-        background: url('./img/bcg-0.png')center/cover no-repeat;
+        min-height: 50vh;
+        min-width: 50px;
+        background: url('img/bcg-0.png')center no-repeat;
         border-radius: 15px;
         box-shadow: 5px 10px black;
         position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
     }
-    
+
     .btn {
         display: inline-block;
         background: white;
         color: black;
-        border: 3px solid green;
+        border: 3px solid #d24dff;
         font-size: 1.5rem;
         padding: 0.5rem;
         border-radius: 20%;
@@ -103,14 +120,14 @@
         position: absolute;
         top: 50%;
         left: 0;
-        transform: translate(-50%,-50%);
+        transform: translate(550%,-50%);
     }
     
     .nextBtn {
         position: absolute;
         top: 50%;
         right: 0;
-        transform: translate(50%,-50%);
+        transform: translate(-550%,-50%);
     }
     
     .btn:active {
@@ -119,7 +136,7 @@
     }
     
     .btn:hover {
-        background: green;
+        background: purple;
         color: white;
     
     }
