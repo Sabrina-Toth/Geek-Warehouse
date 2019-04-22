@@ -72,7 +72,7 @@
 
     header {
         min-height: calc(100vh - 91.8px);
-        background: 	#FAEBD7
+        background: #FAEBD7;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
@@ -87,7 +87,7 @@
     .name {
         min-height: 100px;
         min-width: 900px;
-        background: red;
+        background: url('./img/video-games.png')center no-repeat;
     }
 
     .item-pic {
@@ -101,5 +101,63 @@
         margin-left: 140px;
         margin-right: 10px;
         margin-bottom: 15px;
-        background: yellow;
+    }
+
+    .description {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center; 
+        font-size: 30px;
+    }
+
+    .price {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center; 
+        font-size: 20px;
+    }
+
+    .pic1 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .pic2 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .pic3 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .pic4 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .pic5 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .pic6 {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .pic7 {
+        margin-top: 10px;
+    }
+
+    footer {
+        min-width: 100%;
+        min-height: 50px;
+         float: left;
+         background: #FAEBD7;
+    }
+
+    .foot {
+        padding: 5px;
     }
